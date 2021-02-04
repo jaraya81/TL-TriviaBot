@@ -1,5 +1,6 @@
 package com.github.jaraya81.service;
 
+import com.github.jaraya81.model.Trivia;
 import com.github.jaraya81.model.User;
 
 public class ServiceBot {
@@ -14,5 +15,9 @@ public class ServiceBot {
     }
 
     public void updateUser(User user) {
+    }
+
+    public Trivia getTrivia(String id) {
+        return null;
     }
 }
